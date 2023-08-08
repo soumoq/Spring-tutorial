@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="com.springcore.collections.Emp" name="Emp1">
+        <property name="name" value="Soumo"/>
+        <property name="phones">
+            <list>
+                <value>1234567890</value>
+                <value>1234567891</value>
+                <value>1234567892</value>
+                <null/>
+            </list>
+        </property>
+        <property name="addresses">
+            <set>
+                <value>Tak</value>
+                <value>Kol</value>
+                <null/>
+            </set>
+        </property>
+        <property name="courses">
+            <map>
+                <entry key="java" value="6 month"/>
+                <entry key="Py" value="1.6 month"/>
+                <entry key="C" value="1"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>
