@@ -1,0 +1,4 @@
+what is Jit compiler?
+marker interface or empty interface.
+method hiding.
+Finally method always execute in java?
