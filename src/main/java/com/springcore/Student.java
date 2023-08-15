@@ -24,7 +24,7 @@ public class Student {
   }
 
   public void setStudentId(int studentId) {
-    System.out.println("Setting ID");
+    //System.out.println("Setting ID");
     this.studentId = studentId;
   }
 
@@ -33,7 +33,7 @@ public class Student {
   }
 
   public void setStudentName(String studentName) {
-    System.out.println("Setting name");
+    //System.out.println("Setting name");
     this.studentName = studentName;
   }
 
@@ -42,7 +42,7 @@ public class Student {
   }
 
   public void setStudentAddress(String studentAddress) {
-    System.out.println("Setting Address");
+    //System.out.println("Setting Address");
     this.studentAddress = studentAddress;
   }
 }
