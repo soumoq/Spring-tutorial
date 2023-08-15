@@ -11,4 +11,8 @@
         <property name="price" value="7"/>
     </bean>
 
+    <bean class="com.springcore.lifecycle.Papsi" name="p1">
+        <property name="price" value="3"/>
+    </bean>
+
 </beans>

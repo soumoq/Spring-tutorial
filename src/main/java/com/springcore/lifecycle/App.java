@@ -10,6 +10,9 @@ public class App {
     AbstractApplicationContext context = new ClassPathXmlApplicationContext("lifecycle.xml");
     Somasa person = (Somasa) context.getBean("s1");
     System.out.println(person);
+
+    Papsi p1 = (Papsi) context.getBean("p1");
+    System.out.println(p1);
     context.registerShutdownHook();
   }
 }
