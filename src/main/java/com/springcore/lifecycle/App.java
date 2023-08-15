@@ -13,6 +13,10 @@ public class App {
 
     Papsi p1 = (Papsi) context.getBean("p1");
     System.out.println(p1);
+
+    Cola c1 = (Cola) context.getBean("c1");
+    System.out.println(c1);
+
     context.registerShutdownHook();
   }
 }
